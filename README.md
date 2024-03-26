@@ -6,7 +6,7 @@ This project aims to classify songs into four moods (Angry, Happy, Sad, Relaxed)
 
 ### Structure
 
-- **`0_database`**: Contains scripts for feature extraction from lyrics and audio, database generation, and train/test splitting. The lyrics embedding process is optimized for Google Colab's GPU.
+- **`0_database`**: Contains scripts for feature extraction from lyrics and audio, database generation, data preprocessing and train/test splitting. The lyrics embedding process is optimized for Google Colab's GPU.
 
 - **`1_classifier`**: Includes code for training SVM models on audio and lyrics features, followed by meta-models to improve prediction outcomes. 
 
