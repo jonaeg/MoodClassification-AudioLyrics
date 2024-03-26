@@ -1,0 +1,9 @@
+requests
+pandas
+numpy
+librosa
+matplotlib
+scikit-learn
+astropy
+torch
+joblib
