@@ -24,4 +24,4 @@ This project aims to classify songs into four moods (Angry, Happy, Sad, Relaxed)
 
  ### Data analysis
 
-The folder **`2_DataAnalysis`** contains the notebook **`Analysis.ipynb`** for the data analysis, which uses the models that have been previously trained in **`1_classifier`**. To run the data analysis notebook with retrained models, replace the **`models`** instance from **`2_data_Analysis`** with the freshly trained models from **`1_classifier`**
+The folder **`2_DataAnalysis`** contains the notebook **`Analysis.ipynb`** for the data analysis. To run the data analysis notebook with the trained models, copy the **`models`** instance from **`2_data_Analysis`** after training the models into **`2_DataAnalysis`** .
