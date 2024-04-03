@@ -22,6 +22,6 @@ This project aims to classify songs into four moods (Angry, Happy, Sad, Relaxed)
 
 3. **Model Training**: Copy folder `0_Database/database` to `1_classifier` and look there into the notebooks to train and evaluate models.
 
-4. ### Data analysis
+ ### Data analysis
 
-5. The data analysis notebook uses the models that have been previously trained in **`1_classifier`**. To run the data analysis notebook with retrained models, replace the **`models`** instance from **`2_data_Analysis`** with the freshly trained models from **`1_classifier`**
+The data analysis notebook uses the models that have been previously trained in **`1_classifier`**. To run the data analysis notebook with retrained models, replace the **`models`** instance from **`2_data_Analysis`** with the freshly trained models from **`1_classifier`**
