@@ -21,3 +21,7 @@ This project aims to classify songs into four moods (Angry, Happy, Sad, Relaxed)
 2. **Data Preparation**: Run notebook in `0_database/GenerationDatabase.ipynb` to prepare your data. If you want to recalculate the features look into the notebooks `0_Database/feature_extraction_audio.ipynb` and `0_database/feature_extraction_lyrics.ipynb`
 
 3. **Model Training**: Copy folder `0_Database/database` to `1_classifier` and look there into the notebooks to train and evaluate models.
+
+4. ### Data analysis
+
+5. The data analysis notebook uses the models that have been previously trained in **`1_classifier`**. To run the data analysis notebook with retrained models, replace the **`models`** instance from **`2_data_Analysis`** with the freshly trained models from **`1_classifier`**
