@@ -1,4 +1,4 @@
-# ML-finalProject
+# Mood Classifier based on Audio and Lyrics of Songs
 
 ## Overview
 
